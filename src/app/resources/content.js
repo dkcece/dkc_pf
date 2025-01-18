@@ -7,7 +7,7 @@ const person = {
     return `${this.firstName} ${this.lastName}`;
   },
   role: "Engineer",
-  // avatar: "hhhtp",
+  avatar: "/images/avatar.jpg",
   location: "America/Detroit", // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
   languages: ["English"], // optional: Leave the array empty if you don't want to display languages
 };
@@ -84,7 +84,7 @@ const about = {
             iterate 50% faster.
           </>,
         ],
-       // images: [],
+        images: [],
       },
       {
         company: "Creativ3",
@@ -100,7 +100,7 @@ const about = {
             in overall company revenue.
           </>,
         ],
-       // images: [],
+        images: [],
       },
     ],
   },
@@ -126,13 +126,13 @@ const about = {
         title: "Figma",
         description: <>Able to prototype in Figma with Once UI with unnatural speed.</>,
         // optional: leave the array empty if you don't want to display images
-       // images: [],
+        images: [],
       },
       {
         title: "Next.js",
         description: <>Building next gen apps with Next.js + Once UI + Supabase.</>,
         // optional: leave the array empty if you don't want to display images
-       // images: [],
+        images: [],
       },
     ],
   },
