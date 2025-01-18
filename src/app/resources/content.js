@@ -25,7 +25,7 @@ const social = [
   {
     name: "Email",
     icon: "email",
-    link: "DKCece@umich.edu",
+    link: "mailto:DKCece@umich.edu",
   },
 ];
 
@@ -53,7 +53,7 @@ const about = {
     display: true,
   },
   calendar: {
-    display: true,
+    display: false,
     link: "https://cal.com",
   },
   intro: {
