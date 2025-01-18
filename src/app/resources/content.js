@@ -7,7 +7,7 @@ const person = {
     return `${this.firstName} ${this.lastName}`;
   },
   role: "Engineer",
-  avatar: "/images/projects/project-01/avatar-05.jpg",
+  avatar: "/images/projects/project-01/avatar-05.png",
   location: "America/Detroit", // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
   languages: ["English"], // optional: Leave the array empty if you don't want to display languages
 };
@@ -86,7 +86,7 @@ const about = {
         ],
         images: [
           {
-          src: "/images/projects/project-01/avatar-05.jpg",
+          src: "/images/projects/project-01/avatar-05.png",
           alt: "Once UI Project",
           width: 16,
           height: 9,
@@ -109,7 +109,7 @@ const about = {
         ],
         images: [
           {
-            src: "/images/projects/project-01/avatar-05.jpg",
+            src: "/images/projects/project-01/avatar-05.png",
             alt: "Once UI Project",
             width: 16,
             height: 9,
@@ -123,7 +123,7 @@ const about = {
     title: "Studies",
     institutions: [
       {
-        name: "University of Jakarta",
+        name: "University of Michigan",
         description: <>Studied software engineering.</>,
       },
       {
@@ -142,7 +142,7 @@ const about = {
         // optional: leave the array empty if you don't want to display images
         images: [
           {
-            src: "/images/projects/project-01/avatar-05.jpg",
+            src: "/images/projects/project-01/avatar-05.png",
             alt: "Once UI Project",
             width: 16,
             height: 9,
@@ -155,7 +155,7 @@ const about = {
         // optional: leave the array empty if you don't want to display images
         images: [
           {
-            src: "/images/projects/project-01/avatar-05.jpg",
+            src: "/images/projects/project-01/avatar-05.png",
             alt: "Once UI Project",
             width: 16,
             height: 9,
