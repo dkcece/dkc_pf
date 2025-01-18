@@ -7,7 +7,7 @@ const person = {
     return `${this.firstName} ${this.lastName}`;
   },
   role: "Engineer",
-  avatar: "/images/avatar.jpg",
+  avatar: "/images/projects/project-01/avatar-05.jpg",
   location: "America/Detroit", // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
   languages: ["English"], // optional: Leave the array empty if you don't want to display languages
 };
@@ -36,7 +36,7 @@ const home = {
   headline: <>Biomedical engineer and roboticist</>,
   subline: (
     <>
-      I'm Donovan, an engineer at <InlineCode>The University of Michigan</InlineCode>, where I study Biomedical engineering and robotics.
+      I'm Donovan, an engineer at <InlineCode>The University of Michigan</InlineCode> where I study Biomedical engineering and robotics.
     </>
   ),
 };
@@ -62,7 +62,7 @@ const about = {
     description: (
       <>
         I'm is a Michigan-based engineer with a passion for transforming complex challenges
-        into simple, elegant solutions. My work spans BLAH BLAH BLAH
+        into simple, elegant solutions. 
       </>
     ),
   },
@@ -84,7 +84,14 @@ const about = {
             iterate 50% faster.
           </>,
         ],
-        images: [],
+        images: [
+          {
+          src: "/images/projects/project-01/avatar-05.jpg",
+          alt: "Once UI Project",
+          width: 16,
+          height: 9,
+        },
+      ],
       },
       {
         company: "Creativ3",
@@ -100,7 +107,14 @@ const about = {
             in overall company revenue.
           </>,
         ],
-        images: [],
+        images: [
+          {
+            src: "/images/projects/project-01/avatar-05.jpg",
+            alt: "Once UI Project",
+            width: 16,
+            height: 9,
+          },
+        ],
       },
     ],
   },
@@ -126,13 +140,27 @@ const about = {
         title: "Figma",
         description: <>Able to prototype in Figma with Once UI with unnatural speed.</>,
         // optional: leave the array empty if you don't want to display images
-        images: [],
+        images: [
+          {
+            src: "/images/projects/project-01/avatar-05.jpg",
+            alt: "Once UI Project",
+            width: 16,
+            height: 9,
+          },
+        ],
       },
       {
         title: "Next.js",
         description: <>Building next gen apps with Next.js + Once UI + Supabase.</>,
         // optional: leave the array empty if you don't want to display images
-        images: [],
+        images: [
+          {
+            src: "/images/projects/project-01/avatar-05.jpg",
+            alt: "Once UI Project",
+            width: 16,
+            height: 9,
+          },
+        ],
       },
     ],
   },
